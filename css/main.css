@@ -1,0 +1,62 @@
+body {
+    background: rgb(173, 168, 168);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+main {
+    
+    padding-left: 1%;
+}
+.menu {
+    display: flex;
+    background: rgb(44, 44, 44);
+    height: auto;
+    align-items: center;
+}
+.menu a {
+    color: white;
+    margin-right: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background: rgb(109, 105, 105);
+    color: wheat;
+}
+h1 {    
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.kont {
+    display: flex;
+}
+.foto {
+    max-height: 800px;
+    padding: 10px;
+    background: gray;
+    transition: 0.5s ease-in;
+}
+.foto:hover {
+    background: rgb(238, 234, 234);
+}
+.razd {
+    padding: 15px;
+    background: rgb(196, 194, 194);
+    margin: 30px;
+    border: thick double black;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: dimgrey;
+    color: white;
+    padding: 10px 15px;
+}
+.soc {
+    margin-right: 8px;
+}
